@@ -24,13 +24,7 @@
             E emitir a mensagem "Insira informações em todos os campos contendo *"
 
             Esquema do Cenário: Autenticar cadastro de usuário
-            Quando eu digitar <nome>
-            E <sobrenome>
-            E <endereco>
-            E <cidade>
-            E <cep>
-            E <telefone>
-            E <email>
+            Quando eu digitar <nome> <sobrenome> <endereco> <cidade> <cep> <telefone> <email>
             Então exibir <mensagem>
 
             | nome   | sobrenome | endereco | cidade          | cep         | telefone         | email                 | mensagem                                           |
