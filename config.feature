@@ -11,23 +11,19 @@
             E escolher uma peça nas cores azul, vermelho ou laranja
 
             Cenário: Dados válidos para compra
-            E definir tamanho entre PP ao GG e quantidade 1 a 10
-            Quando clicar em Comprar
+            Quando eu definir tamanho entre PP ao GG, quantidade 1 a 10 e Comprar
             Então adicionar itens ao carrinho e emitir mensagem "Item adicionado ao carrinho"
 
             Cenário: Dados inválidos para compra
-            E definir tamanho entre PP ao GG e quantidade >10
-            Quando clicar em Comprar
+            Quando eu definir tamanho entre PP ao GG, quantidade >10 e Comprar
             Então não adicionar itens ao carrinho e emitir mensagem "Quantidade excede limite"
 
             Cenário: Dados incompletos para compra
-            E não seja definido o tamanho e quantidade 1 a 10
-            Quando clicar em Comprar
+            Quando não definir o tamanho e quantidade 1 a 10 e Comprar
             Então não adicionar ao carrinho e emitir mensagem "Tamanho da peça não definido"
 
             Cenário: Limpar e excluir do carrinho
-            E definir tamanho entre PP ao GG e quantidade 1 a 10
-            Quando clicar em Limpar
+            Quando eu definir tamanho entre PP ao GG, quantidade 1 a 10 e Limpar
             Então limpar as informações já definidas e não adicionar ao carrinho
 
             Esquema do Cenário: Autenticar dados para inserir peça ao carrinho
