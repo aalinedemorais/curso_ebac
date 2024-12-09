@@ -1,0 +1,43 @@
+html body {
+    background-color: rgb(180, 209, 180);
+    opacity: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    border-style: groove;
+    border-color: darkgreen;
+    border-width: 5px;
+    font-family: tahoma;
+    font-size: 30px;
+}
+
+h2 {
+    color: darkslategrey;
+    text-align: left;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: dark;
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 16px;
+    list-style-type: circle;
+    font-weight: bold;
+}
+
+li {
+    color: dark;
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 16px;
+    list-style-type: circle;
+}
